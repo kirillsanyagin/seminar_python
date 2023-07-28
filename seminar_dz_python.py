@@ -49,8 +49,8 @@ for x in range(s):
 # ), не превосходящие числа N.
 # 10 -> 1 2 4 8
 
-n = int(input('Введи число N:'))
-i = 0 
+n = int(input('число'))
+i = 0
 while 2**i <= n:
     print(2**i)
     i+=1
